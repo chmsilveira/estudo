@@ -23,4 +23,5 @@ git remove -v  |    Outputs the remote locations with verbose information (fetch
 git push origin master  |    Push the master branch to the remote location origin.
 git pull origin master  |    Get the master branch from the remote location origin.
 git pull origin master  |    = Git fetch origin + git merge master origin/master
-git fetch origin  |    Get the changes from the remote location into the (hidden?) origin/master branch
+git fetch origin  |    Get the changes from the remote location master branch into the origin/master branch
+git log origin/master  |    Get the log from origin/master repository that was  pulled from remote location. Can be different from actual master branch from remote location if the last version has not being pulled yet. 
